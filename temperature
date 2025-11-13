@@ -1,0 +1,9 @@
+input
+celsius=float(input("enter the temperature in celsius"))
+fahrenheit=(celsius*9/5)+32
+print("temperature in fahrenheit:",fahrenheit)
+output
+enter the temperature in celsius28
+temperature in fahrenheit: 82.4
+
+=== Code Execution Successful ===
