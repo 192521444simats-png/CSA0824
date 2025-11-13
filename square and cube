@@ -1,0 +1,12 @@
+input 
+num=float(input("ente a number:"))
+square=num**2
+cube=num**3
+print("square of the number:",square)
+print("cube of the number:",cube)
+output
+ente a number:28
+square of the number: 784.0
+cube of the number: 21952.0
+
+=== Code Execution Successful ===
