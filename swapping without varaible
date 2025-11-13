@@ -1,3 +1,4 @@
+without swapping
 input
 a=int(input("enter the number"))
 b=int(input("enter the number"))
@@ -17,3 +18,9 @@ c=a
 a=b
 b=c
 print("after sawpping:a=",a,"b=",b)
+output
+enter the number4
+enter the number5
+after sawpping:a= 5 b= 4
+
+=== Code Execution Successful ===
