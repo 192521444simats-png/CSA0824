@@ -9,3 +9,11 @@ enter the number5
 after swapping:a= 5 b= 4
 
 === Code Execution Successful ===
+with swapping
+input
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+c=a
+a=b
+b=c
+print("after sawpping:a=",a,"b=",b)
