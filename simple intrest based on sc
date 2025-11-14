@@ -1,0 +1,19 @@
+input
+p=int(input("enter the princeple amount:"))
+n=int(input("enter the number of years:"))
+sc=input("senior citizen yes/no:")
+g=input("gender male/female:")
+if sc=='y'and'm':
+    print("si=",(p*n*12)/100)
+elif sc=='y'and'f':
+    print("si",(p*n*15)/100)
+else:
+    print("si=",(p*n*10)/100)
+output
+enter the princeple amount:18
+enter the number of years:10
+senior citizen yes/no:y
+gender male/female:m
+si= 21.6
+
+=== Code Execution Successful ===
