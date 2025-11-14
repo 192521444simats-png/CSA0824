@@ -22,5 +22,17 @@ output
 enter the number4
 enter the number5
 after sawpping:a= 5 b= 4
+ new method
+x=5
+y=10
+temp=x
+x=y
+y=temp
+print('the value of x after sawpping:{}',format(x))
+print('the value of x after sawpping:{}',format(y))
+output
+the value of x after sawpping:{} 10
+the value of x after sawpping:{} 5
 
+=== Code Execution Successful ===
 === Code Execution Successful ===
