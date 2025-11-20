@@ -1,0 +1,27 @@
+input:
+a=[[1,1,1],[2,2,2],[3,3,3]]
+b=[[1,1,1],[2,2,2],[3,3,3]]
+c=[[1,1,1],[2,2,2],[3,3,3]]
+#multiply a and b
+ab=[[0,0,0],[0,0,0],[0,0,0]]
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            ab[i][j]+=a[i][k]*b[k][j]
+#multiply (a*b)and c
+abc=[[0,0,0],[0,0,0],[0,0,0]]
+for i in range(3):
+    for j in range(3):
+        for k in range(3):
+            abc[i][j]+=ab[i][k]*c[k][j]
+#display rasult
+print("result of a*b*c:")
+for row in abc:
+    print(row)
+output:
+    result of a*b*c:
+[36, 36, 36]
+[72, 72, 72]
+[108, 108, 108]
+
+=== Code Execution Successful ===
