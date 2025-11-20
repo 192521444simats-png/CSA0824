@@ -1,0 +1,18 @@
+input:
+def climb_stairs(n):
+    if n==1:
+        return 1
+    elif n==2:
+        return 2
+    a,b=1,2
+    for i in range (3,n+1):
+        c=a+b
+        a,b=b,c
+    return b
+n=int(input("enter the number of steps:"))
+print("number of distincet ways to climb to the top:",climb_stairs(n))
+output:
+enter the number of steps:6
+number of distincet ways to climb to the top: 13
+
+=== Code Execution Successful ===
