@@ -1,0 +1,27 @@
+input:
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+largest = max(num1, num2, num3)
+print("The largest number is:", largest)
+output:
+Enter the first number: 9
+Enter the second number: 5
+Enter the third number: 2
+The largest number is: 9.0
+
+=== Code Execution Successful ===
+
+input:
+a = float(input("Enter first: "))
+b = float(input("Enter second: "))
+c = float(input("Enter third: "))
+
+print("Smallest number is:", min(a, b, c))
+output:
+Enter first: 6
+Enter second: 5
+Enter third: 3
+Smallest number is: 3.0
+
+=== Code Execution Successful ===
