@@ -25,3 +25,20 @@ Enter third: 3
 Smallest number is: 3.0
 
 === Code Execution Successful ===
+
+input:
+a = float(input("Enter first: "))
+b = float(input("Enter second: "))
+c = float(input("Enter third: "))
+
+second_largest = sorted([a, b, c])[1]
+
+print("Second largest number is:", second_largest)
+
+output:
+Enter first: 8
+Enter second: 7
+Enter third: 6
+Second largest number is: 7.0
+
+=== Code Execution Successful ===
