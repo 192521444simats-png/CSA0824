@@ -1,0 +1,14 @@
+input:
+str=input("enter the word:")
+freq={}
+for char in str:
+    if char in freq:
+        freq[char]+=1
+    else:
+        freq[char]=1
+print(freq)
+output:
+enter the word:hello
+{'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
+=== Code Execution Successful ===
