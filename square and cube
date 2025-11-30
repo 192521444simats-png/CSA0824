@@ -4,8 +4,9 @@ print("Square =", x*x)
 print("Cube =", x*x*x)
 
 output
-ente a number:28
-square of the number: 784.0
-cube of the number: 21952.0
+enter the number:0.9
+Square = 0.81
+Cube = 0.7290000000000001
 
 === Code Execution Successful ===
+
